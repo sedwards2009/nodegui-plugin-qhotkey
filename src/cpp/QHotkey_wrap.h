@@ -8,7 +8,7 @@
 #include "QtCore/QObject/qobject_macro.h"
 #include "nhotkey.hpp"
 
-class DLL_EXPORT QHotkeyWrap : public Napi::ObjectWrap<QHotkeyWrap> {
+class QHotkeyWrap : public Napi::ObjectWrap<QHotkeyWrap> {
   QOBJECT_WRAPPED_METHODS_DECLARATION
 
  private:
