@@ -5,7 +5,7 @@
 #include "QtCore/QObject/qobject_macro.h"
 #include "napi.h"
 
-class DLL_EXPORT NHotkey : public QHotkey, public EventWidget {
+class NHotkey : public QHotkey, public EventWidget {
   Q_OBJECT
   EVENTWIDGET_IMPLEMENTATIONS(QHotkey)
  public:
