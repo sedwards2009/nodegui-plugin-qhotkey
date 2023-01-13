@@ -1,9 +1,9 @@
 {
     "name": "nodegui-plugin-qhotkey",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "NodeGui plugin with QHotKey for global hotkey support",
-    "main": "dist/index.js",
-    "typings": "dist/index.d.ts",
+    "main": "dist/main.js",
+    "typings": "dist/main.d.ts",
     "scripts": {
         "build": "npm run build:ts && npm run build:addon",
         "clean": "rimraf dist build",
@@ -19,9 +19,9 @@
     "files": [
         "src/cpp/*",
         "dist/addon.js",
-        "dist/index.js",
+        "dist/main.js",
         "dist/addon.d.ts",
-        "dist/index.d.ts",
+        "dist/main.d.ts",
         "scripts/setupBinary.js",
         "README.md",
         "CMakeLists.txt"
